@@ -19,12 +19,7 @@ namespace WindowsForms_CustomFontSample001
         public Form1()
         {
             InitializeComponent();
-            PrivateFontCollection privateFonts = new PrivateFontCollection();
-            var bytes = Properties.Resources.SourceHanSansTW_Bold;
-            System.IntPtr pointer = Marshal.AllocCoTaskMem(bytes.Length);
-            Marshal.Copy(bytes, 0, pointer, bytes.Length);
-            privateFonts.AddMemoryFont(pointer, bytes.Length);
-            this.Font = new Font(privateFonts.Families[0], 25);
+            this.Font = new Font(FontsProxy.Fonts[0], 15);
         }
     }
 }
