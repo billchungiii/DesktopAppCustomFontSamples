@@ -15,7 +15,7 @@
                 <Setter Property="Text" Value="內嵌字型示範"/>
             </Style>
         </StackPanel.Resources> 
-        <TextBlock FontFamily="{StaticResource boldFont}" FontWeight="Bold" />
-        <TextBlock FontFamily="{StaticResource boldFont}" FontWeight= "Light"  />
+        <TextBlock FontFamily="{StaticResource sourceHansSansFont}" FontWeight="Bold" />
+        <TextBlock FontFamily="{StaticResource sourceHansSansFont}" FontWeight= "Light"  />
     </StackPanel>
 </Window>

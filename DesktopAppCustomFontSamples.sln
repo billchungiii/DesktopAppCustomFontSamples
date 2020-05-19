@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms_CustomFontSamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_CustomFontSample001", "Wpf_CustomFontSample001\Wpf_CustomFontSample001.csproj", "{DCAF84A9-07A8-4705-9563-0E260E1D291C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFontsLibrary", "CustomFontsLibrary\CustomFontsLibrary.csproj", "{6110EAFC-A52D-4E5D-B025-F1F226EA7238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DCAF84A9-07A8-4705-9563-0E260E1D291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAF84A9-07A8-4705-9563-0E260E1D291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAF84A9-07A8-4705-9563-0E260E1D291C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6110EAFC-A52D-4E5D-B025-F1F226EA7238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6110EAFC-A52D-4E5D-B025-F1F226EA7238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6110EAFC-A52D-4E5D-B025-F1F226EA7238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6110EAFC-A52D-4E5D-B025-F1F226EA7238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
