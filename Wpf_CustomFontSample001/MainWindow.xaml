@@ -15,8 +15,16 @@
                 <Setter Property="Text" Value="內嵌字型示範"/>
                 <Setter Property="FontFamily" Value="{StaticResource sourceHansSansFont}"/>
             </Style>
+            <Style TargetType="TextBlock" x:Key="normalStyle" >
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="Margin" Value="12"/>
+                <Setter Property="Foreground" Value="Brown" />
+                <Setter Property="Text" Value="內嵌字型示範"/>
+            </Style>
         </StackPanel.Resources> 
         <TextBlock  FontWeight="Bold" />
+        <TextBlock  FontWeight="Bold" Style="{StaticResource normalStyle}" />
         <TextBlock  FontWeight= "Light"  />
+        <TextBlock  FontWeight= "Light" Style="{StaticResource normalStyle}"  />
     </StackPanel>
 </Window>
