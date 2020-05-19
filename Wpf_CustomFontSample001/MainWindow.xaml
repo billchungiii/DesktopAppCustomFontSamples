@@ -13,9 +13,10 @@
                 <Setter Property="Margin" Value="12"/>
                 <Setter Property="Foreground" Value="Brown" />
                 <Setter Property="Text" Value="內嵌字型示範"/>
+                <Setter Property="FontFamily" Value="{StaticResource sourceHansSansFont}"/>
             </Style>
         </StackPanel.Resources> 
-        <TextBlock FontFamily="{StaticResource sourceHansSansFont}" FontWeight="Bold" />
-        <TextBlock FontFamily="{StaticResource sourceHansSansFont}" FontWeight= "Light"  />
+        <TextBlock  FontWeight="Bold" />
+        <TextBlock  FontWeight= "Light"  />
     </StackPanel>
 </Window>
