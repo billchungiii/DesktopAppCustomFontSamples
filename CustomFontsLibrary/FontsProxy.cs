@@ -13,7 +13,7 @@ namespace CustomFontsLibrary
 
         }
 
-        public void AddFonts(string key, string resourceName)
+        public void AddFonts(string resourceName)
         {
 
         }
